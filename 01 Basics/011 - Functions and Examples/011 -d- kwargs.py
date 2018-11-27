@@ -1,10 +1,18 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
+#!/usr/bin/env python
+#
+# Copyright 2018 Mattia Benedetti
+# All rights reserved.
+#
+# Author: Mattia Benedetti
 
 """
+    -   FUNCTIONs    -
+
 Docs
 https://docs.python.org/2/tutorial/controlflow.html#defining-functions
 
-4.7.3. Arbitrary Argument Lists¶
+4.7.3. Arbitrary Argument Lists
 Finally, the least frequently used option is to specify that a function can be called
 with an arbitrary number of arguments. These arguments will be wrapped up in a tuple
 (see Tuples and Sequences).

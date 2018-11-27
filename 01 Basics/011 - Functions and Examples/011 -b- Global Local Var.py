@@ -1,14 +1,20 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
+#!/usr/bin/env python
+#
+# Copyright 2018 Mattia Benedetti
+# All rights reserved.
+#
+# Author: Mattia Benedetti
 
 """
+    -   FUNCTIONs    -
+
 Docs
 https://docs.python.org/2/tutorial/controlflow.html#defining-functions
 
 4.6. Defining Functions
 
-
-    >-	global GLOBAL_VARIABLE	-<
-
+    >-   global GLOBAL_VARIABLE  -<
 
 inside functions the 'other-variable' are 'READ-ONLY'
 
@@ -18,7 +24,6 @@ IF i need to access at these variables I need to use 'global' keyword
 
 
 # ESAMPLE A
-
 var_global = 'GLOBAL'
 
 def change_global():
@@ -30,7 +35,6 @@ def change_global_correct():
     var_global = 'LOCAL'
     print 'var_global in FUNC= ', var_global
 
-
 print 30 * '-','Example A-1 - [NO globlal]'
 change_global()
 print 'var_global in MAIN= ', var_global
@@ -40,9 +44,7 @@ change_global_correct()
 print 'var_global in MAIN= ', var_global
 
 
-
 # ESAMPLE B
-
 max_number = 0
 
 def set_max_number(list_):
@@ -66,7 +68,6 @@ def set_max_number_with_global(list_):
     max_number =  largest
     print 'max_number in FUNC= ', max_number
 
-
 print
 print 30 * '-','Example B-1 - [NO globlal]'
 set_max_number([3,4,643,3245,5,22])
@@ -75,7 +76,6 @@ print 'max_number in MAIN= ', max_number
 print 30 * '-','Example B-2 - [globlal]'
 set_max_number_with_global([3,4,643,3245,5,22])
 print 'max_number in MAIN= ', max_number
-
 
 # strange:
 # max_number inside function is 3245

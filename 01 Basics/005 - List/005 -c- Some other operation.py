@@ -1,14 +1,26 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
+#!/usr/bin/env python
+#
+# Copyright 2018 Mattia Benedetti
+# All rights reserved.
+#
+# Author: Mattia Benedetti
 
 """
-list , tuple, string
-
-some other operation
-split, replace, find, upper, lower, startswith, endwith
-
-join
+    -   Data Structures    -    LIST !   <= TUPLE ~ STRINGs
 
 https://docs.python.org/2/library/stdtypes.html
+
+List/tuple/string some other operations:
+
+-split      Return a list of the words in the string, using sep* as the delimiter string
+-replace    Return a copy of the string with all occurrences of substring old replaced by new
+-find       Return the lowest index in the string where substring sub is found...
+-upper      Return a copy of the string with all the cased characters [4] converted to uppercase.
+-lower      Return a copy of the string with all the cased characters [4] converted to lowercase.
+-startswith Return True if string starts with the prefix, otherwise return False.
+-endwith    Return True if the string ends with the specified suffix, otherwise return False.
+-join       Return a string which is the concatenation of the strings in iterable.
 
 """
 

@@ -1,16 +1,21 @@
 # -*- coding: utf-8 -*-
+#!/usr/bin/env python
+#
+# Copyright 2018 Mattia Benedetti
+# All rights reserved.
+#
+# Author: Mattia Benedetti
 
 """
-" While LOOP ""
+    -   While LOOP    -
 
-https://docs.python.org/2/reference/compound_stmts.html#grammar-token-for_stmt
-
+https://docs.python.org/2/reference/compound_stmts.html
 
 #Syntax Example:
 
 #--------While -----------------CASE A--------------
 while condition :
-	indentedStatementBlock
+    indentedStatementBlock
 #---------------------------------------------------
 
 From python doc site
@@ -19,9 +24,8 @@ The while statement is used for repeated execution as long as an expression is t
 
 while_stmt ::=  "while" expression ":" suite
                 ["else" ":" suite]
+
 """
-
-
 
 print
 print '-'*40+'Example 1'
@@ -40,4 +44,3 @@ str_ = ''
 while len(str_) < 10:
 	str_ = str_ + 'x'
 	print str_
-

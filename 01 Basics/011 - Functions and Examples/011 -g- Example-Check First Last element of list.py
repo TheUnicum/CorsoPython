@@ -1,6 +1,13 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
+#!/usr/bin/env python
+#
+# Copyright 2018 Mattia Benedetti
+# All rights reserved.
+#
+# Author: Mattia Benedetti
 
 """
+    -   FUNCTIONs    -
 
     ->      Check first and last elements of a list        <-
 
@@ -15,4 +22,3 @@ def same_start_end_lists( list1, list2):
 print same_start_end_lists('ciao','canguro')
 print same_start_end_lists([46,5,78,2,4],[46,7358,4])
 print same_start_end_lists('settembre','ottobre')
-

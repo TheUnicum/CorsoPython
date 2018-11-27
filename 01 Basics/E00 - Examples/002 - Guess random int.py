@@ -9,12 +9,15 @@
 import random
 
 def main():
+    print "[Nota: questo script funziona solo in cmd.exe]\n"
     num = random.randint(1,100)
-    print num
+    print "La prima volta ti do un suggerimento: {}\n".format(num)
     while True :
 
         val  = raw_input('Ciao, Indovina il numera tra [1:100] un valore :')
         if val == 'quit' or val == 'q': break
+        if val.lower().startswith('q')  break
+
 
         val_int = int(val)
 

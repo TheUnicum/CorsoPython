@@ -1,10 +1,15 @@
 # -*- coding: utf-8 -*-
+#!/usr/bin/env python
+#
+# Copyright 2018 Mattia Benedetti
+# All rights reserved.
+#
+# Author: Mattia Benedetti
 
 """
-9.9. operator — Standard operators as functions¶
+9.9. operator — Standard operators as functions
 
 https://docs.python.org/2/library/operator.html
-
 
 + somma
 - sottrzione
@@ -14,7 +19,8 @@ https://docs.python.org/2/library/operator.html
 // double division , Parte intera della divisione
 %  modulo , resto della divisione
 
-**  esponente
+**  esponente>
+
 """
 
 print 20 + 3
@@ -38,9 +44,6 @@ print '3'* 4
 print 3 * '112233'
 print 3 * '112233_ '
 print '-'*40
-
-
-
 
 
 """

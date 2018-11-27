@@ -1,15 +1,21 @@
-# -*- coding: utf-8 -*-
+#-*- coding: utf-8 -*-
+#!/usr/bin/env python
+#
+# Copyright 2018 Mattia Benedetti
+# All rights reserved.
+#
+# Author: Mattia Benedetti
 
 """
+    -   RANGE    -
 
 Built in Function
 " range
 
 https://docs.python.org/2/library/functions.html#range
 
-
-
 #range(start, stop[, step])
+
 """
 
 

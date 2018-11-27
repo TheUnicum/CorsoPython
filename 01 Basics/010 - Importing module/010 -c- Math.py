@@ -1,6 +1,15 @@
 #-*- coding: utf-8 -*-
+#!/usr/bin/env python
+#
+# Copyright 2018 Mattia Benedetti
+# All rights reserved.
+#
+# Author: Mattia Benedetti
 
 """
+    -   IMPORTING MODULES    -
+
+    -          MATH          -
 Docs
 https://docs.python.org/2/library/math.html
 
@@ -53,4 +62,3 @@ print
 print '9.2.7. Constants'
 print 'math.pi          :',math.pi
 print 'math.e           :',math.e
-

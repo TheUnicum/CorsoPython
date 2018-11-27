@@ -1,9 +1,18 @@
 # -*- coding: utf-8 -*-
+#!/usr/bin/env python
+#
+# Copyright 2018 Mattia Benedetti
+# All rights reserved.
+#
+# Author: Mattia Benedetti
 
-
-# Basic type in Pyton
 """
+    -   String Formatting / rappresentation    -
+
 https://docs.python.org/2/library/string.html
+
+strings     Stringhe o liste di caratteri. In python non esiste il tipo di variabile <char>
+
 """
 
 val_stringa = 'Testo di prova'

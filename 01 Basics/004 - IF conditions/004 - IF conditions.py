@@ -1,7 +1,13 @@
 # -*- coding: utf-8 -*-
+#!/usr/bin/env python
+#
+# Copyright 2018 Mattia Benedetti
+# All rights reserved.
+#
+# Author: Mattia Benedetti
 
 """
-" If Statements ""
+"       ->    If Statements     <-
 
 https://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/ifstatements.html
 
@@ -10,38 +16,36 @@ https://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/ifstatements.html
 
 #--------Simple if Statements-----------------CASE A--------------
 if condition :
-	indentedStatementBlock
+    indentedStatementBlock
 #------------------------------------------------------------------
-
 
 
 #--------if-else Statements--------------------CASE B--------------
 if condition :
-	indentedStatementBlockForTrueCondition
+    indentedStatementBlockForTrueCondition
 else:
-	indentedStatementBlockForFalseCondition
+    indentedStatementBlockForFalseCondition
 #------------------------------------------------------------------
-
 
 
 #--------if-elif-else Statements---------------CASE C--------------
 if condition_1 :
-	indentedStatementBlockForTrueCondition_1
+    indentedStatementBlockForTrueCondition_1
 elif condition_2 :
-	indentedStatementBlockForTrueCondition_2
+    indentedStatementBlockForTrueCondition_2
 elif condition_3 :
-	indentedStatementBlockForTrueCondition_3
+    indentedStatementBlockForTrueCondition_3
 ....
 else:
-	indentedStatementBlockForFalseCondition
+    indentedStatementBlockForFalseCondition
 #------------------------------------------------------------------
 
 
-Bool Conditional Expressions
+IMPORTANT Bool Conditional Expressions!
 
 #    and     or    not
-"""
 
+"""
 
 print '-'*40  + 'Bool Conditional Expressions'  # '-------------'
 print True and True, ' <- True (and) True'
@@ -49,20 +53,18 @@ print True and False, ' <- True (and) False'
 print False or True, ' <- False (or) True'
 print not(True) , ' <- not(True)'
 
-
-'''
+"""
 [Bool Int Float]
 More Conditional Expressions
-Meaning					Math Symbol		Python Symbols
+Meaning                Math Symbol        Python Symbols
 
-Less than					<					<
-Greater than				>					>
-Less than or equal			≤					<=
-Greater than or equal		≥					>=
-Equals						=					==
-Not equal					≠					!=
-
-'''
+Less than                   <                   <
+Greater than                >                   >
+Less than or equal          ≤                   <=
+Greater than or equal       ≥                   >=
+Equals                      =                   ==
+Not equal                   ≠                   !=
+"""
 
 print '-'*40  + 'More Conditional Expressions'  # '-------------'
 print 'Il risultato di 2 > 6 vale :', 2 > 6
@@ -74,8 +76,7 @@ print  '2 == 2.0:' ,2 == 2.0, '   NB!!!!! uguaglianza come valore delle variabil
 print  'type(2) == type(2.0):' ,type(2) == type(45.0), 'NB!!!!! uguaglianza come TIPO delle variabili'
 print
 
-
-'''
+"""
 [string List]
 Some  Conditional Expressions Examples  *for STRINGS and LIST*
 
@@ -83,10 +84,9 @@ in  /   not in
 	item in sequence
 	item not in sequence
 
-
 len (lenth)
+"""
 
-'''
 print '-'*40  + 'Strings'  # '-------------'
 if 's' in 'listacaratteri':
 	print 's è in "listacaratteri" '
@@ -98,9 +98,6 @@ else:
 
 if 'caratte' in 'listacaratteri':
 	print "'caratte' è all'interno di 'listacaratteri'"
-
-
-
 
 
 print
@@ -126,9 +123,6 @@ elif numero == 333:
 else:
 	print 'Il numero introdotto NON è uno di questi 111,222,333'
 
-
-
-
 print
 if numero > 100:
 	print 'Il numero introdotto è maggiore di 100'
@@ -138,18 +132,13 @@ if numero > 300:
 	print 'Il numero introdotto è maggiore anche di 300'
 
 print
+print "Tre modi alternativi di fare la sterssa cosa:"
 if numero >= 100:
 	if numero <= 110:
 		print 'Il numero introdotto è tra 100 e 110'
 
-
 if numero >= 100 and numero <= 110:
 		print 'Il numero introdotto è tra 100 e 110'
 
-
 if 100 <= numero <= 110:
 		print 'Il numero introdotto è tra 100 e 110'
-
-
-
-

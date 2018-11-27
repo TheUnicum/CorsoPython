@@ -1,6 +1,13 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
+#!/usr/bin/env python
+#
+# Copyright 2018 Mattia Benedetti
+# All rights reserved.
+#
+# Author: Mattia Benedetti
 
 """
+    -   FUNCTIONs    -
 
     ->      Remove vowels from strings      <-
 

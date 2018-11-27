@@ -1,9 +1,15 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
+#!/usr/bin/env python
+#
+# Copyright 2018 Mattia Benedetti
+# All rights reserved.
+#
+# Author: Mattia Benedetti
 
 """
+    -   FUNCTIONs    -
 
 Recursion!!!!
-
 
 Functions calling itself until reach the BASE CASE!
 
@@ -20,7 +26,6 @@ def double_recur(x):
 
 print '-'*20,'double'
 print double(4), double_recur(4)
-
 
 #------------------------------------------------------------------
 # triangle number
@@ -67,12 +72,17 @@ def count_x(str_):
         return count_x(str_[1:]) + 1
     else:
         return count_x(str_[1:])
+
+def count_x_v2(str_):
+    if not str_: return 0
+    return count_x_v2(str_[1:]) + str_.startswith('x')
+
 print
 print '-'*20,'count x'
 s = 'yyyxxyy'
-print s, count_x(s)
+print s, count_x(s), "Versione compatta v2: ", count_x_v2(s)
 s = 'yxxxyxy'
-print s, count_x(s)
+print s, count_x(s), "Versione compatta v2: ", count_x_v2(s)
 
 #------------------------------------------------------------------
 # factorial

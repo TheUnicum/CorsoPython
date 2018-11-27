@@ -7,6 +7,7 @@
 # Author: Mattia Benedetti
 
 def main():
+    print "[Nota: questo script funziona solo in cmd.exe]\n"
     while True:
         number = input('Please enter a number to be checking as PRIME: ')
         if number <= 0 :break

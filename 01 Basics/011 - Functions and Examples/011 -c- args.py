@@ -1,15 +1,22 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
+#!/usr/bin/env python
+#
+# Copyright 2018 Mattia Benedetti
+# All rights reserved.
+#
+# Author: Mattia Benedetti
 
 """
+    -   FUNCTIONs    -
+
 Docs
 https://docs.python.org/2/tutorial/controlflow.html#defining-functions
 
-4.7.3. Arbitrary Argument Lists¶
+4.7.3. Arbitrary Argument Lists
 Finally, the least frequently used option is to specify that a function can be called
 with an arbitrary number of arguments. These arguments will be wrapped up in a tuple
 (see Tuples and Sequences).
 Before the variable number of arguments, zero or more normal arguments may occur.
-
 
 def write_multiple_items(file, separator, *args):
     file.write(separator.join(args))
@@ -26,7 +33,6 @@ def sum_3_numbers(n1,n2,n3):
 print 20 * '-','sum_2_numbers & sum_3_numbers'
 print sum_2_numbers(2,4)
 print sum_3_numbers(2,4,6)
-
 
 
 def sum_n_numbers_temp(*numbers):

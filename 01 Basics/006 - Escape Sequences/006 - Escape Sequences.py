@@ -1,10 +1,15 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
+#!/usr/bin/env python
+#
+# Copyright 2018 Mattia Benedetti
+# All rights reserved.
+#
+# Author: Mattia Benedetti
 
 """
-Escape Sequences
+    -   Escape Sequences    -
 
 https://docs.python.org/2/reference/lexical_analysis.html
-
 
 \newline	Ignored
 \\			Backslash (\)
@@ -22,6 +27,7 @@ https://docs.python.org/2/reference/lexical_analysis.html
 \v			ASCII Vertical Tab (VT)
 \ooo		Character with octal value ooo	(3,5)
 \ xhh		Character with hex value hh	(4,5)
+
 """
 
 print 'Hello\nWorld'

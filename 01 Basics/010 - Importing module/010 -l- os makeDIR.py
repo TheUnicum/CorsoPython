@@ -1,15 +1,22 @@
 #-*- coding: utf-8 -*-
+#!/usr/bin/env python
+#
+# Copyright 2018 Mattia Benedetti
+# All rights reserved.
+#
+# Author: Mattia Benedetti
 
 """
-Docs
+    -   IMPORTING MODULES    -
+
 https://docs.python.org/2.7/library/index.html
 
+Description:
 
-get current OS Directory
-
-make new directory name "Nuova_Directory"
-rename "Nuova_Directory" to "NuovaBalubba"
-remove "NuovaBalubba"
+1.  get current OS Directory
+2.  make new directory name "Nuova_Directory"
+3.  rename "Nuova_Directory" to "NuovaBalubba"
+4.  remove "NuovaBalubba"
 
 """
 
@@ -24,6 +31,6 @@ os.mkdir('Nuova_Directory')
 
 time.sleep(2)
 
-os.rename('Nuova_Directory','NuovaBalubba')
+os.rename('Nuova_Directory','CartellaRinominata')
 time.sleep(2)
-os.rmdir('NuovaBalubba')
+os.rmdir('CartellaRinominata')

@@ -1,10 +1,18 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
+#!/usr/bin/env python
+#
+# Copyright 2018 Mattia Benedetti
+# All rights reserved.
+#
+# Author: Mattia Benedetti
 
 """
+    -   FUNCTIONs    -
+
 Docs
 https://docs.python.org/2/tutorial/controlflow.html#defining-functions
 
-4.7.1. Default Argument Values¶
+4.7.1. Default Argument Values
 The most useful form is to specify a default value for one or more arguments.
 This creates a function that can be called with fewer arguments than it is defined to allow.
 For example:

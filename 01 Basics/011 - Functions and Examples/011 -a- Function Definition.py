@@ -1,6 +1,14 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
+#!/usr/bin/env python
+#
+# Copyright 2018 Mattia Benedetti
+# All rights reserved.
+#
+# Author: Mattia Benedetti
 
 """
+    -   FUNCTIONs    -
+
 Docs
 https://docs.python.org/2/tutorial/controlflow.html#defining-functions
 
@@ -8,9 +16,9 @@ https://docs.python.org/2/tutorial/controlflow.html#defining-functions
 
 --------------------------------------------CASE A--------------
 def function_name(arguments):
-	indentedStatementBlock
-	...
-	return (Resul)
+    indentedStatementBlock
+    ...
+    return (Resul)
 ------------------------------------------------------------------
 
 Functions are repeatable statement of code

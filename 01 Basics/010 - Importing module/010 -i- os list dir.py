@@ -1,7 +1,14 @@
 #-*- coding: utf-8 -*-
+#!/usr/bin/env python
+#
+# Copyright 2018 Mattia Benedetti
+# All rights reserved.
+#
+# Author: Mattia Benedetti
 
 """
-Docs
+    -   IMPORTING MODULES    -
+
 https://docs.python.org/2.7/library/index.html
 
 """

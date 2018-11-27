@@ -1,11 +1,19 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
+#!/usr/bin/env python
+#
+# Copyright 2018 Mattia Benedetti
+# All rights reserved.
+#
+# Author: Mattia Benedetti
 
 """
-len , lunghezza della lista
+- <len()>         lunghezza della lista
 
+    ->      SLICING     <-
 
-list_operation
-SLICING   Example lista [1:4:6]
+list[START:END:STEP]
+Example SLICING, lista [1:4:6]
+
 TUPLE = liste non modificabili   , sintassi = in parentesi tonde()
 
 """
