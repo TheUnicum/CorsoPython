@@ -1,0 +1,3 @@
+[submodule "Extra/MyEssentialPrograms"]
+	path = Extra/MyEssentialPrograms
+	url = https://github.com/TheUnicum/MyEssentialPrograms
