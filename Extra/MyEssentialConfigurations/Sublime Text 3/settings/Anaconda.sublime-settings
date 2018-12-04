@@ -1,0 +1,76 @@
+{
+    /*
+        Autoformat files on save
+
+        This option is disabled by default, AutoPEP8 is really slow and it get
+        the file buffer read only while its working in the background.
+
+        Use this at your own risk.
+    */
+    "auto_formatting": false,
+    /*
+        Do not fix the errors listed here:
+        Note: By default we ignore E309 as this is not pep8 but it does
+        conflict with pep257 D211.
+    */
+    "autoformat_ignore":
+    [
+        // https://pep8.readthedocs.io/en/release-1.7.x/intro.html#configuration
+        //"E231",         // missing whitespace after ‘,’, ‘;’, or ‘:’
+        //"E251",         // unexpected spaces around keyword / parameter equals
+        //"E301",         // expected 1 blank line, found 0
+        //"E302",         // expected 2 blank lines, found 0
+        "E401",         // multiple imports on one lines
+        "E402",         // module level import not at top of file
+        //"E501",         // line too long (82 > 79 characters)
+    ],
+    /*
+        A list of pep8 error numbers to ignore.
+        The list of error codes is in this file:
+            https://pycodestyle.readthedocs.io/en/latest/intro.html#error-codes.
+        Search for "Ennn:", where nnn is a 3-digit number.
+        E309 is ignored by default as it conflicts with pep257 E211
+    */    
+    "pep8_ignore":
+    [
+        //"E309",
+        //"E231",         // missing whitespace after ‘,’, ‘;’, or ‘:’
+        //"E251",         // unexpected spaces around keyword / parameter equals
+        //"E301",         // expected 1 blank line, found 0
+        //"E302",         // expected 2 blank lines, found 0
+        "E401",         // multiple imports on one lines
+        "E402",         // module level import not at top of file        
+        //"E501",         // line too long (82 > 79 characters)
+    ],
+    // Set this to false to turn pep8 checking off completely.
+    "pep8": true,
+    /*
+        Set to false to disable Anaconda linting entirely.
+    */
+    "anaconda_linting": true,
+
+    /*
+        If this is set to false, anaconda will not underline errors.
+    */
+    "anaconda_linter_underlines": true,
+    /*
+        If 'outline' (default), anaconda will outline error lines.
+        If 'fill', anaconda will fill the lines.
+        If 'solid_underline', anaconda will draw a solid underline below regions.
+        If 'stippled_underline', anaconda will draw a stippled underline below regions.
+        If 'squiggly_underline', anaconda will draw a squiggly underline below regions.
+        If 'none', anaconda will not draw anything on error lines.
+    */    
+    "anaconda_linter_mark_style": "stippled_underline",
+    /*
+        If you set the following option as true, anaconda will display the
+        signatures of the methods you are using while typing
+    */
+    "display_signatures": true,
+    /*
+        Disable anaconda completion
+
+        WARNING: setting this as true will totally disable anaconda completion.
+    */
+    "disable_anaconda_completion": false,
+}

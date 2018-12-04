@@ -1,0 +1,7 @@
+In "regedit"
+Trova chiave: sublime_text
+
+Correggere
+sublime_text.exe->shell->open->command
+
+"C:\Program Files\Sublime Text 3\sublime_text.exe" "%1"
