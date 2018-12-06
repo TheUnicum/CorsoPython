@@ -1,5 +1,5 @@
-#-*- coding: utf-8 -*-
-#!/usr/bin/env python
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -13,15 +13,15 @@ https://docs.python.org/2.7/library/index.html
 
 """
 
-import math
-import random
-import string           #7. String Services
-import time
-import subprocess
-import threading
-import socket
-import Tkinter
-import sys
+import math  # noqa
+import random  # noqa
+import string           # 7. String Services
+import time  # noqa
+import subprocess  # noqa
+import threading  # noqa
+import socket  # noqa
+import Tkinter  # noqa
+import sys  # noqa
 
 '''
 string.split(s[, sep[, maxsplit]])

@@ -15,13 +15,15 @@
     */
     "autoformat_ignore":
     [
+        "E309",         // IMPORTANT!!! non REMOVE !!!!!
+        // ^^^
         // https://pep8.readthedocs.io/en/release-1.7.x/intro.html#configuration
         //"E231",         // missing whitespace after ‘,’, ‘;’, or ‘:’
         //"E251",         // unexpected spaces around keyword / parameter equals
         //"E301",         // expected 1 blank line, found 0
         //"E302",         // expected 2 blank lines, found 0
-        "E401",         // multiple imports on one lines
-        "E402",         // module level import not at top of file
+        //"E401",         // multiple imports on one lines
+        //"E402",         // module level import not at top of file
         //"E501",         // line too long (82 > 79 characters)
     ],
     /*
@@ -30,16 +32,17 @@
             https://pycodestyle.readthedocs.io/en/latest/intro.html#error-codes.
         Search for "Ennn:", where nnn is a 3-digit number.
         E309 is ignored by default as it conflicts with pep257 E211
-    */    
+    */
     "pep8_ignore":
     [
-        //"E309",
+        "E309",         // IMPORTANT!!! non REMOVE !!!!!
+        // ^^^
         //"E231",         // missing whitespace after ‘,’, ‘;’, or ‘:’
         //"E251",         // unexpected spaces around keyword / parameter equals
         //"E301",         // expected 1 blank line, found 0
         //"E302",         // expected 2 blank lines, found 0
-        "E401",         // multiple imports on one lines
-        "E402",         // module level import not at top of file        
+        //"E401",         // multiple imports on one lines
+        //"E402",         // module level import not at top of file
         //"E501",         // line too long (82 > 79 characters)
     ],
     // Set this to false to turn pep8 checking off completely.
@@ -47,7 +50,7 @@
     /*
         Set to false to disable Anaconda linting entirely.
     */
-    "anaconda_linting": true,
+    "anaconda_linting": true,  //true,   <<<----<<<---
 
     /*
         If this is set to false, anaconda will not underline errors.
@@ -60,7 +63,7 @@
         If 'stippled_underline', anaconda will draw a stippled underline below regions.
         If 'squiggly_underline', anaconda will draw a squiggly underline below regions.
         If 'none', anaconda will not draw anything on error lines.
-    */    
+    */
     "anaconda_linter_mark_style": "stippled_underline",
     /*
         If you set the following option as true, anaconda will display the

@@ -1,5 +1,5 @@
+#!/usr/local/bin/python
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -22,13 +22,13 @@ List/tuple/string some other operations:
 -endwith    Return True if the string ends with the specified suffix, otherwise return False.
 -join       Return a string which is the concatenation of the strings in iterable.
 
-"""
+""" # noqa
 
 print
-print '-'*40, 'List Vs string---Same slicing operations'
-print [1,2,3,4,5,6]
-print [1,2,3,4,5,6][2:5]
-print [1,2,3,4,5,6][::-1]
+print '-' * 40, 'List Vs string---Same slicing operations'
+print [1, 2, 3, 4, 5, 6]
+print [1, 2, 3, 4, 5, 6][2:5]
+print [1, 2, 3, 4, 5, 6][::-1]
 
 print
 print 'Hello World!'
@@ -38,7 +38,7 @@ print 'Hello World!'[::-1]
 
 
 print
-print '-'*40, 'SPLIT'
+print '-' * 40, 'SPLIT'
 stringa = 'Questa e una frase qualsiasi'
 print stringa
 split_s = stringa.split()
@@ -64,26 +64,26 @@ print split_s_by_str
 
 
 print
-print '-'*40, 'REPLACE'
+print '-' * 40, 'REPLACE'
 stringa = 'Questa è una frase qualsiasi'
 print stringa
-split_s = stringa.replace('Questa','XXXX')
+split_s = stringa.replace('Questa', 'XXXX')
 print split_s
 
 
 print
-print '-'*40, 'FIND'
+print '-' * 40, 'FIND'
 #          01234567890123
 stringa = 'Questa e una frase qualsiasi'
 print stringa
-index = stringa.find('frase')  #il primo trovato
+index = stringa.find('frase')  # il primo trovato
 print index
 index = stringa.find('a caso')
 print index
 
 
 print
-print '-'*40, 'upper & lower'
+print '-' * 40, 'upper & lower'
 stringa = 'Questa è una frase qualsiasi'
 print stringa
 split_all_Maiuscola = stringa.upper()
@@ -93,16 +93,16 @@ print split_all_minuscola
 
 
 print
-print '-'*40, 'startswith, endwith'
+print '-' * 40, 'startswith, endwith'
 stringa = 'Questa è una frase qualsiasi'
 print stringa
-print 'La frase comincia con i caratteri "Ques"?, la risposta è', stringa.startswith('Ques')
-print 'La frase termina con "qualsiasi"' , stringa.endswith('qualsiasi')
-print 'La frase non termina con "fine"' , stringa.endswith('fine')
+print 'La frase comincia con i caratteri "Ques"?, la risposta è', stringa.startswith('Ques') # noqa
+print 'La frase termina con "qualsiasi"', stringa.endswith('qualsiasi')
+print 'La frase non termina con "fine"', stringa.endswith('fine')
 
 
 print
-print '-'*40, 'JOIN'
+print '-' * 40, 'JOIN'
 lista = ['computer', 'mouse', 'tastiera', 'monitor']
 print lista
 print ''.join(lista)

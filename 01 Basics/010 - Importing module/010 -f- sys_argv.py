@@ -1,5 +1,5 @@
-#-*- coding: utf-8 -*-
-#!/usr/bin/env python
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -27,6 +27,6 @@ import sys
 
 print sys.argv
 
-#first argument is FileName
+# first argument is FileName
 if len(sys.argv) > 1:
     print sys.argv[1]

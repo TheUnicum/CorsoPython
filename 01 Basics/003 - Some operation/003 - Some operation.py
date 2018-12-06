@@ -1,5 +1,5 @@
+#!/usr/local/bin/python
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -27,23 +27,23 @@ print 20 + 3
 print 20 - 3
 print 20 * 3
 print 20 / 3.0
-print #questo scrive una riga vuota
+print  # questo scrive una riga vuota
 
-print 20 // 3.0   #Parte intera della divisione
-print 20 %  3.0   #resto della divisione  6-12-18 resto 2
+print 20 // 3.0   # Parte intera della divisione
+print 20 % 3.0   # resto della divisione  6-12-18 resto 2
 
 print
 print 2**4
 print 6**78
 
 print
-print  3 + 4 , type(3 + 4)
-print '3'+'4', type('3'+'4')
+print 3 + 4, type(3 + 4)
+print '3' + '4', type('3' + '4')
 
-print '3'* 4
+print '3' * 4
 print 3 * '112233'
 print 3 * '112233_ '
-print '-'*40
+print '-' * 40
 
 
 """

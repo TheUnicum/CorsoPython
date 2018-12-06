@@ -1,5 +1,5 @@
+#!/usr/local/bin/python
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -17,7 +17,7 @@ The most useful form is to specify a default value for one or more arguments.
 This creates a function that can be called with fewer arguments than it is defined to allow.
 For example:
 
-"""
+"""  # noqa
 
 
 def ask_ok(prompt, retries=4, complaint='Yes or no, please!'):
@@ -35,9 +35,12 @@ def ask_ok(prompt, retries=4, complaint='Yes or no, please!'):
 # Only in pront cmd dos
 # ask_ok('Press Yes or no, please!')
 
+
 def address_book_No_default(name, gender, age, has_cell, has_pc):
     pass
-def address_book_default(name, gender, age, has_cell = True, has_pc = True):
+
+
+def address_book_default(name, gender, age, has_cell=True, has_pc=True):
     pass
 
 
@@ -46,8 +49,8 @@ try:
     address_book_No_default('Claudio', 'M', 22,)
 except Exception as e:
     print "Exception Error: <{}>".format(e)
-    print "-----address_book_No_default MUST be called with exactly 5 arguments-----\n"
+    print "-----address_book_No_default MUST be called with exactly 5 arguments-----\n"  # noqa
 
 
 address_book_default('Claudio', 'M', 22)
-address_book_default('Claudio', 'M', 22, has_pc= False )
+address_book_default('Claudio', 'M', 22, has_pc=False)

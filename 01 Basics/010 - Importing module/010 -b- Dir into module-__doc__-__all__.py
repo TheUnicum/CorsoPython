@@ -1,5 +1,5 @@
-#-*- coding: utf-8 -*-
-#!/usr/bin/env python
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -18,7 +18,7 @@ __name__
 __doc__
 __all__         all user function
 
-"""
+"""  # noqa
 
 
 import math
@@ -29,5 +29,5 @@ print
 print math.__doc__
 
 print
-import random
+import random  # noqa
 print random.__all__

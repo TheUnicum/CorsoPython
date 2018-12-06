@@ -1,5 +1,5 @@
+#!/usr/local/bin/python
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -12,18 +12,21 @@
 
 """
 
-mail = {'mattiab' : 'mattia.benedetti@parpas.com', 'mattiaf' : 'mattia.fortin@parpasa.com', 'gabriele': 'gabriele.rizzo.com', 'teven' :'steven.freschet@parpas.com'}
-stagioni = ['inverno', 'primavera', 'estate' , 'autunno']
+mail = {'mattiab': 'mattia.benedetti@parpas.com',
+        'mattiaf': 'mattia.fortin@parpasa.com',
+        'gabriele': 'gabriele.rizzo.com',
+        'teven': 'steven.freschet@parpas.com'}
+stagioni = ['inverno', 'primavera', 'estate', 'autunno']
 colori = ['bianco', 'verde', 'giallo', 'rosso']
 
 print
 print '----------While Loop----------'
-i=0
+i = 0
 while i < len(stagioni):
     print stagioni[i]
-    i = i+1
+    i = i + 1
 
-#Better in looping to a sequence/list
+# Better in looping to a sequence/list
 print
 print '----------For Loop----------'
 for element in stagioni:

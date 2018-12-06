@@ -1,12 +1,12 @@
 {
-	"color_scheme": "Monokai.sublime-color-scheme",
+    "color_scheme": "Monokai.sublime-color-scheme",
     "font_size": 10,
     "ignored_packages":
     [
         "Vintage"
     ],
     "translate_tabs_to_spaces": true,
-    "trim_trailing_white_space_on_save": false,
-    "update_check": true,
+    "trim_trailing_white_space_on_save": true,
     "show_line_endings": true,
+    //"update_check": true,
 }

@@ -1,5 +1,5 @@
-#-*- coding: utf-8 -*-
-#!/usr/bin/env python
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.

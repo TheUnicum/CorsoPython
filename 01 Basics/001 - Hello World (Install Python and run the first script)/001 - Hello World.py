@@ -1,5 +1,5 @@
+#!/usr/local/bin/python
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -7,7 +7,6 @@
 # Author: Mattia Benedetti
 
 """
-
 Prima lezione pyhton !!!!!
 
 1. Installare i programmi necessari per l'esecuzione di "scripts" python sul proprio PC
@@ -34,7 +33,7 @@ Prima lezione pyhton !!!!!
                         -> [tab "Avanzate"] Variabili d'ambiente
                             -> Nella finestea "Variabili si sistema" selezionare la voce "Path" e cliccare su "Modifica..."
                                 -> Nel campo Valore Variabili agguingere (alla fine della lista separando con un puntoEvirgola ;)
-                                    "C:\Python\Python27"   [oppore l'attuale percorso se è stato modificato in fase di installazione]
+                                    "C:\\Python\\Python27"   [oppore l'attuale percorso se è stato modificato in fase di installazione]
 
                                 -> SALVARE E RIAVVIARE IL SISTEMA!
 
@@ -102,5 +101,7 @@ Prima lezione pyhton !!!!!
 
 Per scrivere il mio primo comando Python devo prima effettuare la chiusura del commento con 3 apostrofi
 [PS: per evitare problemi e sempre consigliabile mantenere l'itentazione anche sull'apertuta/chiusura commento ]
-"""
+[PS": <# nopep8> oppure <# noqa> serve per disabilitare il controllo "PEP 8 -- Style Guide for Python Code" all'interno del segmento]
+""" # noqa 
+
 print 'Hello World!'

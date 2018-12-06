@@ -1,5 +1,5 @@
+#!/usr/local/bin/python
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -15,7 +15,8 @@
 
 
 def make_html_tag(text, tag):
-	return '<%s>%s</%s>' %(tag,text,tag)
+    return '<%s>%s</%s>' % (tag, text, tag)
+
 
 print make_html_tag('il mio testo per il titolo', 'title')
 print make_html_tag('riga in grossetto', 'bold')

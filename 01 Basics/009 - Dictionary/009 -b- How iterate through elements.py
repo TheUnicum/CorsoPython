@@ -1,5 +1,5 @@
-#-*- coding: utf-8 -*-
-#!/usr/bin/env python
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -18,23 +18,24 @@ dict.items()        iterate through items
 
 https://www.tutorialspoint.com/python/python_dictionary.htm
 
-"""
+"""  # noqa
 
-lista =[4139,4127, 4098 ]
+
+lista = [4139, 4127, 4098]
 descrizione = 'Dipendente Parpas'
-dizionario	 = {'Mattia': lista, 'Gabriele': descrizione, 'Steven': 4098}
+dizionario = {'Mattia': lista, 'Gabriele': descrizione, 'Steven': 4098}
 
 print
-print 40*'-'+'dict.keys()'
+print 40 * '-' + 'dict.keys()'
 for key in dizionario.keys():
-    print key# dizionario[key]
+    print key  # dizionario[key]
 
 print
-print 40*'-'+'dict.values()'
+print 40 * '-' + 'dict.values()'
 for key in dizionario.values():
     print key
 
 print
-print 40*'-'+'dict.items()'
+print 40 * '-' + 'dict.items()'
 for key in dizionario.items():
     print key

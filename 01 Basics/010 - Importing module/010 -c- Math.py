@@ -1,5 +1,5 @@
-#-*- coding: utf-8 -*-
-#!/usr/bin/env python
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -44,7 +44,7 @@ math.radians(x)     Convert angle x from degrees to radians.
 math.pi             The mathematical constant π = 3.141592…, to available precision.
 math.e              The mathematical constant e = 2.718281…, to available precision.
 
-"""
+"""  # noqa
 
 
 import math
@@ -60,5 +60,5 @@ print 'math.cos(math.pi):', math.cos(math.pi)
 
 print
 print '9.2.7. Constants'
-print 'math.pi          :',math.pi
-print 'math.e           :',math.e
+print 'math.pi          :', math.pi
+print 'math.e           :', math.e

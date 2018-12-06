@@ -1,5 +1,5 @@
-#-*- coding: utf-8 -*-
-#!/usr/bin/env python
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -31,6 +31,6 @@ os.mkdir('Nuova_Directory')
 
 time.sleep(2)
 
-os.rename('Nuova_Directory','CartellaRinominata')
+os.rename('Nuova_Directory', 'CartellaRinominata')
 time.sleep(2)
 os.rmdir('CartellaRinominata')

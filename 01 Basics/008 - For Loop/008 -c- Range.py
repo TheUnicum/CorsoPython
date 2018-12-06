@@ -1,5 +1,5 @@
-#-*- coding: utf-8 -*-
-#!/usr/bin/env python
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -19,7 +19,7 @@ https://docs.python.org/2/library/functions.html#range
 """
 
 
-list_  = range(1,10001)
-print list_[:10],'....',list_[-10:]
+list_ = range(1, 10001)
+print list_[:10], '....', list_[-10:]
 
-print range(3,10,2)
+print range(3, 10, 2)

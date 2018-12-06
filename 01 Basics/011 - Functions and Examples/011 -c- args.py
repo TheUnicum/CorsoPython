@@ -1,5 +1,5 @@
+#!/usr/local/bin/python
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -21,26 +21,29 @@ Before the variable number of arguments, zero or more normal arguments may occur
 def write_multiple_items(file, separator, *args):
     file.write(separator.join(args))
 
-"""
+"""  # noqa
 
 
-def sum_2_numbers(n1,n2):
+def sum_2_numbers(n1, n2):
     return n1 + n2
 
-def sum_3_numbers(n1,n2,n3):
+
+def sum_3_numbers(n1, n2, n3):
     return n1 + n2 + n3
 
-print 20 * '-','sum_2_numbers & sum_3_numbers'
-print sum_2_numbers(2,4)
-print sum_3_numbers(2,4,6)
+
+print 20 * '-', 'sum_2_numbers & sum_3_numbers'
+print sum_2_numbers(2, 4)
+print sum_3_numbers(2, 4, 6)
 
 
 def sum_n_numbers_temp(*numbers):
     print numbers                       # *args return a tuple of arguments!!!!
 
-print 20 * '-','sum_n_numbers_temp'
-sum_n_numbers_temp(2,4,5,2,54,3,3)
-sum_n_numbers_temp(2,40,5,3)
+
+print 20 * '-', 'sum_n_numbers_temp'
+sum_n_numbers_temp(2, 4, 5, 2, 54, 3, 3)
+sum_n_numbers_temp(2, 40, 5, 3)
 
 
 def sum_n_numbers(*numbers):
@@ -49,15 +52,18 @@ def sum_n_numbers(*numbers):
         total += num
     return total
 
-print 20 * '-','sum_n_numbers(*numbers)'
-print sum_n_numbers(2,4,5,2,54,3,3)
-print sum_n_numbers(54,3)
+
+print 20 * '-', 'sum_n_numbers(*numbers)'
+print sum_n_numbers(2, 4, 5, 2, 54, 3, 3)
+print sum_n_numbers(54, 3)
 
 
 def add_numbers(str_, *args):
     total = 0
-    for num in args:total += num
+    for num in args: total += num  # noqa
     print str_, total
-print 20 * '-','add_numbers(str_, *args)'
-add_numbers('I am about to add all numbers :', 3,4,6,3,6,8)
+
+
+print 20 * '-', 'add_numbers(str_,  *args)'
+add_numbers('I am about to add all numbers :', 3, 4, 6, 3, 6, 8)
 add_numbers('I am about to add all numbers :', 3)

@@ -1,5 +1,5 @@
-#-*- coding: utf-8 -*-
-#!/usr/bin/env python
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -24,16 +24,16 @@ as              import 'module' as 'Myname'
 
 # Basic importing
 import math
-print 'math.pi           :',math.pi
+print 'math.pi           :', math.pi
 
 # Import Simgle element
-from math import pi
-print 'pi                :',pi
+from math import pi  # noqa
+print 'pi                :', pi
 
 # Import Simgle element and rename
-from math import pi as Pgreco
-print 'Pgreco            :',Pgreco
+from math import pi as Pgreco  # noqa
+print 'Pgreco            :', Pgreco
 
 # Import all elements
-from math import *
-print 'pi,e              :',pi,e
+from math import *  # noqa
+print 'pi,e              :', pi, e

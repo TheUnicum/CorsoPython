@@ -1,5 +1,5 @@
+#!/usr/local/bin/python
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -28,18 +28,18 @@ List/string functions:
 -sort       Sort the items of the list in place
 -reverce    Reverse the elements of the list, in place.
 
-"""
+""" # noqa
 
-lista_num = [1,2,3,4,5,66,548,25625626265562]
-#numerone = 25625626265562
-#print numerone, type(numerone)
+lista_num = [1, 2, 3, 4, 5, 66, 548, 25625626265562]
+# numerone = 25625626265562
+# print numerone, type(numerone)
 
 
 print lista_num, type(lista_num)
 print 'la lunghezza della lista è %d' % len(lista_num)
 print
 
-lista_str = ['inverno', 'primavera', 'estate' , 'autunno']
+lista_str = ['inverno', 'primavera', 'estate', 'autunno']
 
 print lista_str
 print 'la lunghezza della lista è %d' % len(lista_str)
@@ -58,37 +58,37 @@ print lista_str
 lista_nuova = ['Stg-added-all-inizio']
 lista_nuova.extend(lista_str)
 print lista_nuova
-lista_nuova.insert(3,'Stg-added-al_index_3')
+lista_nuova.insert(3, 'Stg-added-al_index_3')
 print lista_nuova
 lista_nuova.remove('inverno')
-#lista_nuova.remove('inesistente') non funziona
+# lista_nuova.remove('inesistente') non funziona
 print lista_nuova
 
 
 print
 print '-------- POP -------------'
-lista_num = [1,2,3,4,5,6,7,8,9,10]
+lista_num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print lista_num
 lista_num.pop()
 print lista_num
 lista_num.pop()
 print lista_num
-ultimo_elemento =  lista_num.pop()
+ultimo_elemento = lista_num.pop()
 print lista_num, ultimo_elemento
-ultimo_elemento =  lista_num.pop()
+ultimo_elemento = lista_num.pop()
 print lista_num, ultimo_elemento
-ultimo_elemento =  lista_num.pop(-1)
+ultimo_elemento = lista_num.pop(-1)
 print lista_num, ultimo_elemento
-ultimo_elemento =  lista_num.pop(0)
+ultimo_elemento = lista_num.pop(0)
 print lista_num, ultimo_elemento
-ultimo_elemento =  lista_num.pop(2)
+ultimo_elemento = lista_num.pop(2)
 print lista_num, ultimo_elemento
 
 
 print
 print '-------- COUNT -----------'
-lista = [1,2,3,4,2,3,4,2,3,2]
-print 'il 2 compare nella lista %d volte ' %lista.count(2)
-print 'il 7 compare nella lista %d volte ' %lista.count(7)
+lista = [1, 2, 3, 4, 2, 3, 4, 2, 3, 2]
+print 'il 2 compare nella lista %d volte ' % lista.count(2)
+print 'il 7 compare nella lista %d volte ' % lista.count(7)
 lista.sort()
 print lista

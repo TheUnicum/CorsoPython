@@ -1,5 +1,5 @@
+#!/usr/local/bin/python
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -22,13 +22,14 @@ Before the variable number of arguments, zero or more normal arguments may occur
 def write_multiple_items( **Kwargs):
     pass
 
-"""
+"""  # noqa
 
 
-def example_funct( **Kwargs):
-    print Kwargs                       # *args return a dictionary of arguments!!!!
+def example_funct(**Kwargs):
+    print Kwargs            # *args return a dictionary of arguments!!!!
 
-def people_information( **people_ages):
+
+def people_information(**people_ages):
     average_age = 0
     for age in people_ages.values():
         average_age += age
@@ -37,5 +38,5 @@ def people_information( **people_ages):
     return average_age
 
 
-example_funct(nicola = 33, andrea = 24, Luca = 21, Gianni = 56)
-print people_information(nicola = 33, andrea = 24, Luca = 21, Gianni = 56)
+example_funct(nicola=33, andrea=24, Luca=21, Gianni=56)
+print people_information(nicola=33, andrea=24, Luca=21, Gianni=56)

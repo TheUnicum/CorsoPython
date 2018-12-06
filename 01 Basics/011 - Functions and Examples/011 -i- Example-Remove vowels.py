@@ -1,5 +1,5 @@
+#!/usr/local/bin/python
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -15,14 +15,15 @@
 
 
 def remove_vowels(string):
-		vowels = 'aeiou'
-		new_string = ''
+        vowels = 'aeiou'
+        new_string = ''
 
-		for character in string:
-			if character.lower() not in vowels:
-				new_string += character
+        for character in string:
+            if character.lower() not in vowels:
+                new_string += character
 
-		return new_string
+        return new_string
+
 
 testo1 = 'Ciao io sono Mattia'
 testo2 = 'Questo è la seconda stringa'

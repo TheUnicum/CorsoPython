@@ -1,5 +1,5 @@
-#-*- coding: utf-8 -*-
-#!/usr/bin/env python
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -29,10 +29,9 @@ The for statement is used to iterate over the elements of a sequence (such as a 
 for_stmt ::=  "for" target_list "in" expression_list ":" suite
               ["else" ":" suite]
 
-"""
+""" # noqa
 
-print
-print '-'*40+'Example 1'
+print '-' * 40 + 'Example 1'
 for x in range(10):
     print x
 else:
@@ -40,18 +39,18 @@ else:
 
 
 print
-print '-'*40+'Example 2'
+print '-' * 40 + 'Example 2'
 for x in range(10):
-    if x == 5: break
+    if x == 5: break  # noqa
     print x
 else:
-	print 'Terminato senza errori'
+    print 'Terminato senza errori'
 
 
 print
-print '-'*40+'Example 3'
+print '-' * 40 + 'Example 3'
 for x in range(10):
-    if x in (3,6,9): continue
+    if x in (3, 6, 9): continue  # noqa
     print x
 else:
     print 'Terminato senza errori'

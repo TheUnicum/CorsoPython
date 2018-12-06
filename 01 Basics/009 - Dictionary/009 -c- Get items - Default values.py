@@ -1,5 +1,5 @@
-#-*- coding: utf-8 -*-
-#!/usr/bin/env python
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -22,11 +22,12 @@ update(dict2)               Adds dictionary dict2's key-values pairs to dict
 has_key(key)    / in         #Returns true if key in dictionary dict, false otherwise
 get(key, default=None)
 
-"""
+"""  # noqa
 
-lista =[4139,4127, 4098 ]
+
+lista = [4139, 4127, 4098]
 descrizione = 'Dipendente Parpas'
-dizionario  = {'Mattia': lista, 'Gabriele': descrizione, 'Steven': 4098}
+dizionario = {'Mattia': lista, 'Gabriele': descrizione, 'Steven': 4098}
 
 elemento = dizionario.get('Mattia', "DEFAULT_TEXT")
 print elemento

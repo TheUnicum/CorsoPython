@@ -1,3 +1,6 @@
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
+#
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
 #
@@ -16,15 +19,15 @@ List/tuple/string some other operations:
 
 input(proint)   <-[IS EQUIVALENT TO]->  eval(raw_input(prompt)).
 
-"""
+""" # noqa
 
 print
-print '-'*40
+print '-' * 40
 print 'raw_input, input - : USER INPUT'
 print "[Nota: questo script funziona solo in cmd.exe]\n"
 
 user_input = raw_input("Scrivi qualcosa: ")
 print 'user input is <%s>' % user_input
 
-user_input = input("Prova a scrivere qualcosa che possa essere validato con 'eval' (es: 5 + 7): ")
+user_input = input("Prova a scrivere qualcosa che possa essere validato con 'eval' (es: 5 + 7): ")  # noqa
 print 'user input is <%s>' % user_input

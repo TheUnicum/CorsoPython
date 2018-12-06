@@ -1,5 +1,5 @@
+#!/usr/local/bin/python
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python
 #
 # Copyright 2018 Mattia Benedetti
 # All rights reserved.
@@ -25,22 +25,22 @@ The while statement is used for repeated execution as long as an expression is t
 while_stmt ::=  "while" expression ":" suite
                 ["else" ":" suite]
 
-"""
+""" # noqa 
 
 print
-print '-'*40+'Example 1'
+print '-' * 40 + 'Example 1'
 numero = 0
-while numero <10:
-	print numero
-	numero += 1
+while numero < 10:
+    print numero
+    numero += 1
 
 # Must avoid infinite Loop
-#while True:
-#	print 'Hello'
+# while True:
+#    print 'Hello'
 
 print
-print '-'*40+'Example 2'
+print '-' * 40 + 'Example 2'
 str_ = ''
 while len(str_) < 10:
-	str_ = str_ + 'x'
-	print str_
+    str_ = str_ + 'x'
+    print str_
